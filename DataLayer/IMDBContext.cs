@@ -6,7 +6,8 @@ namespace DataLayer
 {
     public class IMDBContext : DbContext
     {
-        const string ConnectionString = "host=localhost;db=postgres;uid=postgres;pwd=23278320";
+        const string ConnectionString = "host=cit.ruc.dk;db=cit02;uid=cit02;pwd=23278320";
+        //const string ConnectionString = "host=localhost;db=postgres;uid=postgres;pwd=23278320";
         //private readonly string _connectionString;
         //public IMDBContext(string connectionString)
         //{
